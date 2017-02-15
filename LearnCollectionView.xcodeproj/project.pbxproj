@@ -12,6 +12,9 @@
 		30C8B4731E53E18100BE44D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C8B4711E53E18100BE44D9 /* Main.storyboard */; };
 		30C8B4751E53E18100BE44D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C8B4741E53E18100BE44D9 /* Assets.xcassets */; };
 		30C8B4781E53E18100BE44D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C8B4761E53E18100BE44D9 /* LaunchScreen.storyboard */; };
+		30C8B4801E53E2BD00BE44D9 /* DemoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C8B47F1E53E2BD00BE44D9 /* DemoCollectionViewController.swift */; };
+		30C8B4821E53E31100BE44D9 /* DemoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C8B4811E53E31100BE44D9 /* DemoCollectionViewCell.swift */; };
+		30C8B4841E53E50800BE44D9 /* tiendo.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C8B4831E53E50800BE44D9 /* tiendo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		30C8B4741E53E18100BE44D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30C8B4771E53E18100BE44D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30C8B4791E53E18100BE44D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C8B47F1E53E2BD00BE44D9 /* DemoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCollectionViewController.swift; sourceTree = "<group>"; };
+		30C8B4811E53E31100BE44D9 /* DemoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCollectionViewCell.swift; sourceTree = "<group>"; };
+		30C8B4831E53E50800BE44D9 /* tiendo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiendo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		30C8B46C1E53E18100BE44D9 /* LearnCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				30C8B4831E53E50800BE44D9 /* tiendo.png */,
 				30C8B46D1E53E18100BE44D9 /* AppDelegate.swift */,
 				30C8B46F1E53E18100BE44D9 /* ViewController.swift */,
 				30C8B4711E53E18100BE44D9 /* Main.storyboard */,
 				30C8B4741E53E18100BE44D9 /* Assets.xcassets */,
 				30C8B4761E53E18100BE44D9 /* LaunchScreen.storyboard */,
 				30C8B4791E53E18100BE44D9 /* Info.plist */,
+				30C8B47F1E53E2BD00BE44D9 /* DemoCollectionViewController.swift */,
+				30C8B4811E53E31100BE44D9 /* DemoCollectionViewCell.swift */,
 			);
 			path = LearnCollectionView;
 			sourceTree = "<group>";
@@ -124,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C8B4841E53E50800BE44D9 /* tiendo.png in Resources */,
 				30C8B4781E53E18100BE44D9 /* LaunchScreen.storyboard in Resources */,
 				30C8B4751E53E18100BE44D9 /* Assets.xcassets in Resources */,
 				30C8B4731E53E18100BE44D9 /* Main.storyboard in Resources */,
@@ -139,6 +149,8 @@
 			files = (
 				30C8B4701E53E18100BE44D9 /* ViewController.swift in Sources */,
 				30C8B46E1E53E18100BE44D9 /* AppDelegate.swift in Sources */,
+				30C8B4801E53E2BD00BE44D9 /* DemoCollectionViewController.swift in Sources */,
+				30C8B4821E53E31100BE44D9 /* DemoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +312,7 @@
 				30C8B47E1E53E18100BE44D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
