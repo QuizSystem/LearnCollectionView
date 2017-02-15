@@ -9,6 +9,9 @@
 import UIKit
 
 class DemoCollectionViewController: UICollectionViewController {
+    
+    var citys:[String] = ["Ho Chi Minh", "Ha Noi", "Da Nang", "Bac Giang", "Thanh Hoa", "Hue", "Lang Son", "Quang Tri", "Bac Ninh"]
+    var photos:[String] = ["ungdung.png", "dungluong.png", "manhinh.png ", "playunity.png", "tiendo.png", "ungdung.png", "ungdung.png", "ungdung.png", "ungdung.png"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,13 +35,13 @@ class DemoCollectionViewController: UICollectionViewController {
 
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return citys.count
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! DemoCollectionViewCell
-        cell.myLabel.text = "Thieu Mao"
-        cell.myImage.image = UIImage(named: "tiendo.png")
+        cell.myLabel.text = citys[indexPath.row]
+        cell.myImage.image = UIImage(named: photos[indexPath.row])
         return cell
     }
 
